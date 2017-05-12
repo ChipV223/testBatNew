@@ -1,2 +1,2 @@
 @ECHO OFF
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v TabProcGrowth /t REG_SZ /d 0 /f
+reg add "HKCU\software\microsoft\Windows\CurrrentVersion\Internet Settings\5.0" /v SyncMode5 /t REG_DWORD /d 00000003 /f
